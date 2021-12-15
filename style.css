@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Cutive&family=DM+Serif+Text&family=Days+One&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;   
+
+}
+
+:root{
+    --font-titulo: 'DM Serif Text', serif;
+    --font-subtitulo: 'Days One', sans-serif;
+    --font-textbasic: 'Basic', sans-serif;
+    --font-tituloexperience: 'Cutive', serif; 
+
+}
+
+html{
+    max-width: 1024px;
+    margin: auto;
+}
+
+body{
+    background-color:#C3C3C3 ;
+}
+
+
+#header{
+    display:flex;    
+    position: relative;    
+} 
+   
+
+
+.img-wrapper img{
+    width:335px;
+    height:458px;    
+
+}
+
+
+
+.img-wrapper p {
+    position: relative;	
+    color: #FFFFFF;
+}
+
+
+.box-profile{
+ width: 335px;
+ height:166px;
+ background-color: #C6A429;
+
+ position: relative;
+
+
+}
+
+
+
+
+.professional{
+    position:relative;
+    bottom: 3rem;
+    
+
+    font-family: var(--font-subtitulo);
+
+}
+
+.profile{
+    position: relative;
+    bottom:3rem;
+
+    font-family: var(--font-subtitulo);
+
+}
+
+
+
+.banner{
+    background: #484848;
+    width:683px ;
+    height:317px ;
+    
+}
+
+.nome{
+    margin-top: 62px;
+    margin-left:2rem;
+    margin-bottom: 0px;
+    padding:0px;
+    line-height:2rem;
+
+    font-family: var(--font-titulo); 
+    font-size:2.5rem ; 
+    color: #FFFFFF;  
+    letter-spacing: .15rem; 
+    
+}
+
+.sobrenome{
+    margin-top:0px;
+    padding:0px;
+    margin-left: 2rem;
+    font-size:2.5rem;
+    color: #FFFFFF;
+    letter-spacing: .14rem; 
+    line-height: 3rem;
+}
+
+.developer{   
+    margin-top: 10px;
+    margin-left: 2rem; 
+    /* margin-bottom: 50px; */
+    font-family: var(--font-subtitulo);
+    font-size:0.8rem;
+    color: #FFBC2F;
+    background: #101012;
+    text-align: center;
+    padding: 1rem;
+    letter-spacing: .14rem;    
+
+}
+
+.description p{   
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin-top: 1rem; 
+    margin-left: 2rem;      
+    
+}
+
+.box{
+    /* position:absolute; */
+    /* bottom: 53px; */
+    width:683px;
+    height:141px;
+    background-color: #FFBC2F;
+}
