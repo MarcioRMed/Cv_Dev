@@ -224,8 +224,7 @@ body{
 
 .container-texto{
     text-align: right;
-    position: relative;
-    
+    position: relative;    
     right:5rem ;
 
 }
@@ -234,9 +233,7 @@ body{
 
 .container-img{
     position: relative;
-    left: 262px;
-    
-    
+    left: 262px;    
     bottom:16rem;
 }
 
@@ -259,8 +256,6 @@ body{
  .sessao-contact img{
     display: flex;
     padding-bottom:20px;
-    
-    
     
 } 
 
@@ -314,11 +309,11 @@ padding: .5rem 1rem;
 
 
 
+
 .sessao-skills{
     background-color: #242424;
     width: 335px;
-    height: 465px;
-
+    height: 465px;    
 
 }
 
@@ -336,4 +331,46 @@ padding: .5rem 1rem;
 }
 
 
+.container-skills{
+    display:flex;
+        
+    justify-content: center;
+    margin-left: 1.5rem;
+}
 
+.sessao-skills p{
+    color: #FFFFFF;
+    font-size: .8rem;
+    font-family: var(--font-textbasic);
+    padding: 1rem;
+    font-weight: 600;
+
+}
+
+
+.sessao-skills span{
+    color: #FFBC2F;
+    font-size: 1.4rem;
+    padding:14px;
+    font-weight: 600;
+
+}
+
+.skills-left span{
+    display:flex;  
+    position: relative;
+    bottom:15rem;
+    margin-left: -1rem;
+}
+
+.skills-right span{
+    display:flex;    
+    position: relative;
+    bottom:15rem;
+    margin-left: -1rem;
+    
+}
+
+.skills-right{
+    margin-left: 1.5rem;
+}
