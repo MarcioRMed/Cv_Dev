@@ -19,7 +19,7 @@
 
 html{
     max-width: 1200px;
-    margin:auto;
+    /* margin:auto; */
 }
 
 body{
@@ -372,4 +372,54 @@ padding: .5rem 1rem;
 
 .skills-right{
     margin-left: 1.5rem;
+}
+
+
+
+
+.sessao-experience{
+
+    position: relative;
+    top:-61.47rem;
+    left:16.75rem;
+
+    background-color:#303030;
+    width:683px;
+    height: 1229px;
+}
+
+.sessao-experience h4{
+    font-family: var(--font-subtitulo);
+    color:#FFFFFF;
+    letter-spacing: .3rem;
+    padding-top:2rem;
+    padding-left: 2rem;
+    padding-bottom: 5px;
+}
+
+
+.bloco-experience-content{
+
+
+}
+
+.bloco-experience{
+    width:253px;
+    height:6px;
+    background-color:#FFF;
+    position: relative;
+    left:2rem;
+    margin-bottom: 2rem;
+
+}    
+ 
+.bloco-experience-linha{
+    width:427px;
+    height:3px;
+    background-color:#FFF;
+    position: relative;
+    left:256px;
+    margin-top:-44px;
+    
+
 }
