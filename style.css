@@ -23,8 +23,7 @@ html{
 }
 
 body{
-    background-color:#101012 ;
-    
+    background-color:#101010;    
 }
 
 
@@ -34,7 +33,6 @@ body{
 } 
    
 
-
 .img-wrapper img{
     width:335px;
     height:458px;   
@@ -43,13 +41,10 @@ body{
 
 }
 
-
-
 .img-wrapper p {
     position: relative;	
     color: #FFFFFF;
 }
-
 
 .box-profile{
  width: 335px;
@@ -65,8 +60,6 @@ body{
 
 
 }
-
-
 
 
 .professional{
@@ -104,8 +97,8 @@ body{
 
 .banner{
     background: #484848;
-    width:683px ;
-    height:317px ;
+    width:683px;
+    height:317px;
     
 }
 
@@ -168,8 +161,6 @@ body{
     
 }
 
-
-
 .sessao-contact{
     background-color: #242424;
     width: 335px;
@@ -217,8 +208,6 @@ body{
     top:-2rem;
 }
 
-
-
 .container-texto{
     text-align: right;
     position: relative;    
@@ -241,7 +230,6 @@ body{
     bottom:17rem;
 }
 
-
 .sessao-contact h4{
     color: #FFFFFF;
     font-family: var(--font-textbasic);
@@ -259,11 +247,8 @@ body{
 
  .sessao-contact img{
     display: flex;
-    padding-bottom:23px;
-    
+    padding-bottom:23px;    
 } 
-
-
 
 
 .sessao-education {
@@ -276,8 +261,6 @@ body{
 .container-education{
    margin-top: 4rem;
 }
-
-
 
 .sessao-education h3{
 background-color: #FFBC2F;
@@ -306,15 +289,12 @@ padding: .5rem 1rem;
 }
 
 
-
-
 .sessao-skills{
     background-color: #242424;
     width: 335px;
     height: 465px;    
 
 }
-
 
 .sessao-skills h3{
     font-family: var(--font-subtitulo);
@@ -327,7 +307,6 @@ padding: .5rem 1rem;
     padding-right: 1rem;
     font-weight: 400;
 }
-
 
 .container-skills{
     display:flex;
@@ -345,7 +324,6 @@ padding: .5rem 1rem;
     font-weight: 600;
 
 }
-
 
 .sessao-skills span{
     color: #FFBC2F;
@@ -374,11 +352,7 @@ padding: .5rem 1rem;
     margin-left: 1.5rem;
 }
 
-
-
-
 .sessao-experience{
-
     position: relative;
     top:-61.47rem;
     left:16.75rem;
@@ -396,7 +370,6 @@ padding: .5rem 1rem;
     padding-left: 2rem;
     padding-bottom: 5px;
 }
-
 
 .bloco-experience-content{
 
