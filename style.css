@@ -36,7 +36,9 @@ body{
 
 .img-wrapper img{
     width:335px;
-    height:458px;    
+    height:458px;   
+    position: relative; 
+    z-index: 1;
 
 }
 
@@ -53,7 +55,12 @@ body{
  height:166px;
  background-color: #C6A429;
 
- position: relative;
+ position: absolute;
+
+ bottom: 0.2rem;
+ opacity: .73;
+ 
+ z-index:2 ;
 
 
 }
@@ -62,22 +69,36 @@ body{
 
 
 .professional{
-    position:relative;
-    bottom: 3rem;
-    
-
+    position:absolute;
+    bottom: 2rem;
+    right: 1rem;        
     font-family: var(--font-subtitulo);
+    letter-spacing: .15rem; 
+    z-index: 3;
 
 }
 
 .profile{
-    position: relative;
-    bottom:3rem;
-
+    position: absolute;
+    bottom:1rem;
+    right:1rem;
+    
     font-family: var(--font-subtitulo);
+    letter-spacing: .15rem; 
+    z-index: 3;
 
 }
 
+.bloco{
+    width:48px;
+    height:13px;
+    background-color:#FFFFFF;
+
+    position: absolute;
+    bottom: 1.33rem;
+    left: 139px;
+    z-index: 3;
+}
 
 
 .banner{
@@ -129,14 +150,19 @@ body{
     font-size: 1rem;
     color: #FFFFFF;
     margin-top: 1rem; 
-    margin-left: 2rem;      
+    margin-left: 2rem; 
+    padding:1rem;
+
+      
     
 }
 
 .box{
-    /* position:absolute; */
-    /* bottom: 53px; */
+    position:relative;
+    bottom: -41px;
     width:683px;
-    height:141px;
+    height:166px;
     background-color: #FFBC2F;
+    margin-top: 1rem;
+    
 }
