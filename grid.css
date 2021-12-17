@@ -365,6 +365,8 @@ background-color:#363636;
     grid-area: skills;
     background-color:#242424;
 
+    position:relative;
+
 }
 
 
@@ -413,65 +415,70 @@ background-color:#363636;
 
 
 
-/* 
+
 .sessao-skills span{
     color: #FFBC2F;
     font-size: 1.4rem;
     font-weight: 600;
-} */
-
-/* .sessao-skills div{
-    color: #FFBC2F;
-    font-size: 1rem;    
-    font-weight: 600;
-
-} */
+}
 
 
-.skills-left div{
+
+/* .skills-left span{
     display:flex;  
-    position: relative;
-    bottom:14.2rem;
+    position: absolute;
+    bottom:1rem;
     margin-left: -1rem;
+    padding-bottom:10px ;
+} */
+
+
+.span{
+    margin-left: 0rem;
+}
+
+
+
+
+
+
+.html{
     
-      
+    position: absolute;
+    bottom:14rem;
    
+    
+}
+
+.css{
+    position: absolute;
+    bottom:11rem;
+    
 }
 
 
-.skills-right div{
-display:flex;    
-    position: relative;
-    bottom:15rem;
+
+.js{
+    position: absolute;
+    bottom:8rem;
     
-     
+}
+
+.wp{
+    position: absolute;
+    bottom:5rem;
+    
+}
+
+.git{
+    position: absolute;
+    bottom:2rem;
+    
 }
 
 
 
 
-
-
-/* 
-.skills-left span{
-    display:flex;  
-    position: relative;
-    bottom:15rem;
-    margin-left: -1rem;
-} */
-
-
-
-
-/* 
-
-.skills-right span{
-    display:flex;    
-    position: relative;
-    bottom:15rem;
-    margin-left: -1rem;
-    
-} */
 
 
 
