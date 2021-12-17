@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Cutive&family=DM+Serif+Text&family=Days+One&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+
+}
+
+:root{
+    --font-titulo: 'DM Serif Text', serif;
+    --font-subtitulo: 'Days One', sans-serif;
+    --font-textbasic: 'Basic', sans-serif;
+    --font-tituloexperience: 'Cutive', serif; 
+
+}
+
+
+body{
+    background-color:#101010;    
+    margin: 0;
+    padding:0;
+
+    display:grid;
+}
+
+
+#header{
+       background-color:green;
+} 
+
+#contact{
+    background-color:red;
+}
+ 
+
+#education{
+background-color:blue;
+}
+
+#skills{
+    background-color:chocolate;
+
+}
+
+#experience{
+background-color:darkblue
+}
+
+#footer{
+    background-color:yellow;
+}
