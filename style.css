@@ -149,7 +149,7 @@ body{
     margin-top: 1rem; 
     margin-left: 2rem; 
     padding:1rem;
-
+    font-family: var(--font-textbasic);
       
     
 }
@@ -253,6 +253,8 @@ body{
     display: flex;
     padding-bottom:23px;    
 } 
+
+
 
 
 .sessao-education {
