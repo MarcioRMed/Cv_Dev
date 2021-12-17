@@ -424,18 +424,12 @@ background-color:#363636;
 
 
 
-/* .skills-left span{
-    display:flex;  
-    position: absolute;
-    bottom:1rem;
-    margin-left: -1rem;
-    padding-bottom:10px ;
-} */
-
 
 .span{
     margin-left: 0rem;
 }
+
+
 
 
 .html{
@@ -474,26 +468,10 @@ background-color:#363636;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #experience{
     grid-area: experience;
 background-color:#303030;
 }
-
 
 
 .sessao-experience{ 
@@ -531,14 +509,6 @@ background-color:#303030;
     
 
 }
-
-
-
-
-
-
-
-
 
 
 
