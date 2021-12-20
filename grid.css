@@ -491,7 +491,7 @@ background-color:#363636;
     "left timeline right";
 
     grid-template-columns: 2fr 100px 2fr;    
-    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
 
 
 
@@ -500,8 +500,8 @@ background-color:#363636;
 
 .left{
     grid-area: left;
-    /* background-color: #a7a7a7; */
     padding: 1rem;
+    transform: translatey(9rem);
 
 }
 
@@ -515,7 +515,6 @@ background-color:#363636;
 
 .right{
 grid-area:right;
-/* background-color:chocolate; */
 padding: 1rem;
 
 
@@ -531,11 +530,10 @@ padding: 1rem;
 
 .timeline{
     
-    width:800px;
-    height:0;
-
+    width: 1000px;
+   
     border: 1px solid #FFBC2F;
-    transform: rotate(-90deg) translateX(-23rem) translateY(-17rem);
+    transform: rotate(-90deg) translateX(-28rem) translateY(-22rem);
  
 }
 
@@ -549,11 +547,25 @@ padding: 1rem;
 
 }
 
+.left .ponto-data{
+    transform:translate(26.3rem , 1.4rem);
+}
+
+
 .sessao-experience{ 
     width:100%; 
 }
 
 
+.sessao-experience h2{
+    color: var(--cor-data);
+    
+}
+
+.sessao-experience h3{
+    color: var(--cor-titulos);
+    padding:.5rem;
+}
 
 
 .sessao-experience h4{
@@ -566,6 +578,13 @@ padding: 1rem;
 }
 
 
+.sessao-experience p{
+    color:var(--cor-texto);
+    text-align: justify;
+    padding: .5rem;
+    line-height: 1.3rem;
+
+}
 
 .bloco-experience{
     width:251px;
@@ -573,7 +592,7 @@ padding: 1rem;
     background-color:#FFF;
     margin-left: 2rem;
     margin-bottom: 2rem;
-
+    
 }    
  
 .bloco-experience-linha{
@@ -584,40 +603,6 @@ padding: 1rem;
     
 
 }
-
-
-
-
-
-.sessao-experience h2{
-    color: var(--cor-data);
-    
-}
-
-.sessao-experience h3{
-    color: var(--cor-titulos);
-    padding:.5rem;
-}
-.sessao-experience p{
-    color:var(--cor-texto);
-    text-align: justify;
-    padding: .5rem;
-    line-height: 1.3rem;
-
-}
-
-
-/* duvida */
-.sessao-experience :nth-child() { 
-    color:#C6A429;
-}
-
-
-
-
-
-
-
 
 
 
