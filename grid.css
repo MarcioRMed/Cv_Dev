@@ -17,6 +17,11 @@
     --font-textbasic: 'Basic', sans-serif;
     --font-tituloexperience: 'Cutive', serif; 
 
+    --cor-data: #E5A92A;
+    --cor-titulos: #B27C09;
+    --cor-texto: #828282;
+    
+
 }
 
 
@@ -470,13 +475,50 @@ background-color:#363636;
 
 #experience{
     grid-area: experience;
-background-color:#303030;
+    background-color:#303030;
+
+
+
+
+}
+
+#article{
+    display:grid;
+    grid-template-areas: 
+    "left timeline right"
+    "left timeline right"
+    "left timeline right";
+
+    grid-template-columns: 1fr 1fr 1fr;    
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+.left{
+    grid-area: left;
+    background-color: #a7a7a7;
+    
+}
+
+.right{
+grid-area:right;
+background-color:chocolate;
+
+
+}
+
+.timeline{
+    background-color: aqua;
+
 }
 
 
 .sessao-experience{ 
     width:100%; 
 }
+
+
+
 
 .sessao-experience h4{
     font-family: var(--font-subtitulo);
@@ -487,10 +529,7 @@ background-color:#303030;
     padding-bottom: 5px;
 }
 
-.bloco-experience-content{
 
-
-}
 
 .bloco-experience{
     width:251px;
@@ -509,6 +548,32 @@ background-color:#303030;
     
 
 }
+
+
+
+
+
+.sessao-experience h2{
+    color: var(--cor-data);
+}
+
+.sessao-experience h3{
+    color: var(--cor-titulos);
+}
+.sessao-experience p{
+    color:var(--cor-texto);
+    text-align: justify;
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -563,15 +628,3 @@ footer{
 
 
 
-
-.sessao-experience h2{
-    color:#B27C09;
-}
-
-.sessao-experience p{
-    color:#FFF;
-
-}
-
-E5A92A cor das data
-B27C09 cor titulos experiencias
