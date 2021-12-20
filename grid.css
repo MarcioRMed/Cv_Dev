@@ -489,26 +489,44 @@ background-color:#363636;
     "left timeline right"
     "left timeline right";
 
-    grid-template-columns: 1fr 1fr 1fr;    
+    grid-template-columns: 2fr 100px 2fr;    
     grid-template-rows: 1fr 1fr 1fr;
 }
 
 
 .left{
     grid-area: left;
-    background-color: #a7a7a7;
-    
+    /* background-color: #a7a7a7; */
+    padding: 1rem;
+
+}
+
+.left h2{
+    text-align:right;
+}
+
+.left h3{
+    text-align:center;
 }
 
 .right{
 grid-area:right;
-background-color:chocolate;
+/* background-color:chocolate; */
+padding: 1rem;
 
 
 }
 
+.right h2{
+    text-align: left;
+}
+
+.right h3{
+    text-align:center;
+}
+
 .timeline{
-    background-color: aqua;
+    /* background-color: aqua; */
 
 }
 
@@ -559,13 +577,21 @@ background-color:chocolate;
 
 .sessao-experience h3{
     color: var(--cor-titulos);
+    padding:.5rem;
 }
 .sessao-experience p{
     color:var(--cor-texto);
     text-align: justify;
+    padding: .5rem;
+    line-height: 1.3rem;
 
 }
 
+
+/* duvida */
+.sessao-experience :nth-child() { 
+    color:#C6A429;
+}
 
 
 
