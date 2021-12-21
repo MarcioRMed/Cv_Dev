@@ -111,6 +111,9 @@ grid-area: imagem;
     bottom: 1.33rem;
     left: 11.5rem;
 
+
+
+    
     width:48px;
     height:13px;
     background-color:#FFFFFF;
@@ -695,7 +698,7 @@ footer{
     .bloco{
         position:absolute;
         bottom: 1.3rem;
-        left: 11.5rem;
+        /* right: 8rem; */
     }
 
 
