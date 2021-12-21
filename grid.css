@@ -113,7 +113,7 @@ grid-area: imagem;
 
 
 
-    
+
     width:48px;
     height:13px;
     background-color:#FFFFFF;
@@ -179,11 +179,15 @@ grid-area: imagem;
 }
 
 .description p{   
+    display:flex;
+    justify-content: center;
+    text-align: center;
     font-size: 1rem;
     color: #FFFFFF;
+    
     margin-top: 1rem; 
     margin-left: 2rem; 
-    padding:1rem;
+    padding:3rem;
     font-family: var(--font-textbasic);
 
       
@@ -262,14 +266,12 @@ grid-area: imagem;
 
 }
 
-.container-texto div h4{
+/* .container-texto div h4{
     font-size:0.7rem;
     letter-spacing:.2rem;
     padding-bottom:.3rem;
-}
-.container-texto div p{
-    font-size:1rem;
-}
+} */
+
 
 .container-img{
     
@@ -285,12 +287,19 @@ grid-area: imagem;
     font-family: var(--font-textbasic);
     font-size:0.8rem;  
     margin-top:1.5rem;  
+
+
+    font-size:0.65rem;
+    letter-spacing:.2rem;
+    padding-bottom:.3rem;
+
     
 }
 .sessao-contact p{
-    color: #FFFFFF;
+    color:var(--cor-titulos);
     font-family: var(--font-textbasic);
-    font-size: 1rem;
+    font-size:0.8rem;
+    
     
     
 }
