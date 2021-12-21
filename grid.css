@@ -53,8 +53,7 @@ body{
 
 #imagem{
 grid-area: imagem;
-/* background-color:#484848; */
-background-color:#504848;
+/* background-color:#504848; */
 }
 
 .img-wrapper img{
@@ -66,7 +65,6 @@ background-color:#504848;
 }
 
 .img-wrapper p{
-    /* position: relative; */
     color: #FFFFFF;
 }
 
@@ -658,3 +656,71 @@ footer{
 
 
 
+@media only screen and (max-width:480px){
+    body{
+        grid-template-areas: "imagem"
+                             "banner " 
+                             "contact" 
+                             "education"
+                             "skills"
+                             "experience"
+                             "footer"; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 100vh;
+    }
+
+
+
+    #imagem{
+        width: 100vw;
+        position: relative;
+    }
+    
+    .img-wrapper img{
+        width: 100vw;
+        position: relative;
+        
+    }
+
+    .box-profile{
+        width:100vw;
+        height:100px;
+          
+        position: relative;
+        bottom: 105px;
+            
+    }
+
+
+    .bloco{
+        position:absolute;
+        bottom: 1.3rem;
+        left: 11.5rem;
+    }
+
+
+
+
+
+
+
+
+
+    
+    #article{
+        grid-template-areas: "right"
+                             "left";
+    }
+
+
+}
+
+    /* .nav-left{
+        display:none;
+
+    } */
+
+    /* .container{
+        grid-template-areas: "right"
+                              "footer";
+    } */
