@@ -9,6 +9,8 @@
     margin: 0;
     padding: 0;   
 
+   
+
 }
 
 :root{
@@ -45,6 +47,9 @@ body{
     grid-template-rows: 50px 539px 500px 300px 425px 100px;
 }
 
+p{
+    font-size:0.8rem;
+}
 
 #header{
         grid-area: header;
@@ -182,7 +187,7 @@ grid-area: imagem;
     display:flex;
     justify-content: center;
     text-align: center;
-    font-size: 1rem;
+    font-size:.9rem;
     color: #FFFFFF;
     
     margin-top: 1rem; 
@@ -266,12 +271,6 @@ grid-area: imagem;
 
 }
 
-/* .container-texto div h4{
-    font-size:0.7rem;
-    letter-spacing:.2rem;
-    padding-bottom:.3rem;
-} */
-
 
 .container-img{
     
@@ -285,22 +284,19 @@ grid-area: imagem;
 .sessao-contact h4{
     color: #FFFFFF;
     font-family: var(--font-textbasic);
-    font-size:0.8rem;  
+    font-size:0.9rem;  
     margin-top:1.5rem;  
-
 
     font-size:0.65rem;
     letter-spacing:.2rem;
     padding-bottom:.3rem;
-
     
 }
 .sessao-contact p{
     color:var(--cor-titulos);
     font-family: var(--font-textbasic);
-    font-size:0.8rem;
-    
-    
+    font-size:.8rem;
+       
     
 }
 
@@ -310,6 +306,9 @@ grid-area: imagem;
       
 } 
 
+a{
+    text-decoration: none;
+}
 
 
 
@@ -345,7 +344,7 @@ background-color:#363636;
 
     .sessao-education p{
         color:#FFFFFF;
-        font-size: .9rem;
+        font-size: .8rem;
         padding: .5rem;
         text-align: center;
         padding-top:1rem;
@@ -646,7 +645,7 @@ footer{
 .footer-content p{
     font-family: var(--font-textbasic);
     color:#a7a7a7;
-    font-size:1rem;    
+    font-size:.8rem;    
 
 }
 
