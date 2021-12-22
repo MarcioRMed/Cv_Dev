@@ -3,13 +3,10 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
 
 
-
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;   
-
-   
+    padding: 0;     
 
 }
 
@@ -21,9 +18,7 @@
 
     --cor-data: #E5A92A;
     --cor-titulos: #B27C09;
-    --cor-texto: #828282;
-    
-
+    --cor-texto: #828282;   
 }
 
 
@@ -58,7 +53,6 @@ p{
 
 #imagem{
 grid-area: imagem;
-/* background-color:#504848; */
 }
 
 .img-wrapper img{
@@ -93,10 +87,8 @@ grid-area: imagem;
     bottom: 2rem;
     right: 1rem;        
     font-family: var(--font-subtitulo);
-    letter-spacing: .15rem; 
-   
+    letter-spacing: .15rem;    
     z-index: 3;
-
 }
 
 
@@ -108,38 +100,23 @@ grid-area: imagem;
     font-family: var(--font-subtitulo);
     letter-spacing: .15rem; 
     z-index: 3;
-
 }
 
 .bloco{
     position: absolute;
     bottom: 1.33rem;
-    left: 11.5rem;
-
-
-
+    left: 12.5rem;
 
     width:48px;
     height:13px;
-    background-color:#FFFFFF;
-
-    
+    background-color:#FFFFFF;    
     z-index: 3;
 }
 
 
-
-
-
-
 #banner{
     grid-area: banner;
-    background-color:#484848;
-    
-    /* width:683px;
-    height:317px; */
-    
-
+    background-color:#484848;   
 }
 
 
@@ -153,8 +130,7 @@ grid-area: imagem;
     font-family: var(--font-titulo); 
     font-size:2.5rem ; 
     color: #FFFFFF;  
-    letter-spacing: .15rem; 
-    
+    letter-spacing: .15rem;     
 }
 
 
@@ -193,10 +169,7 @@ grid-area: imagem;
     margin-top: 1rem; 
     margin-left: 2rem; 
     padding:3rem;
-    font-family: var(--font-textbasic);
-
-      
-    
+    font-family: var(--font-textbasic);    
 }
 
 .box{
@@ -204,9 +177,7 @@ grid-area: imagem;
     bottom:-120px; 
     width:100%;
     height:166px;
-    background-color: #FFBC2F;
-    
-    
+    background-color: #FFBC2F;    
 }
 
 
@@ -219,9 +190,7 @@ grid-area: imagem;
 
 .sessao-contact{
     background-color: #242424;
-    width: 100%;
-     
-       
+    width: 100%;       
 }
 
 
@@ -259,26 +228,19 @@ grid-area: imagem;
     
 }
 
-.container-texto-img{
-    position:relative;
-    top:-2rem;
-}
-
 .container-texto{
     text-align: right;
     position: relative;    
-    right:5rem ;
-
+    right:4.5rem ;
+    bottom:1.5rem;    
 }
 
 
-.container-img{
-    
+.container-img{    
     position: relative;
 
     left: 355px;    
-    bottom:18rem;
-    
+    bottom:18.5rem;    
 }
 
 .sessao-contact h4{
@@ -289,27 +251,24 @@ grid-area: imagem;
 
     font-size:0.65rem;
     letter-spacing:.2rem;
-    padding-bottom:.3rem;
-    
+    padding-bottom:.3rem;    
 }
+
+
 .sessao-contact p{
     color:var(--cor-titulos);
     font-family: var(--font-textbasic);
-    font-size:.8rem;
-       
-    
+    font-size:.8rem;      
 }
 
  .sessao-contact img{
     display: flex;
-    padding-bottom:28px;  
-      
+    padding-bottom:24px;        
 } 
 
 a{
     text-decoration: none;
 }
-
 
 
 #education{
@@ -318,8 +277,7 @@ background-color:#363636;
 }
 
 .sessao-education {
-    width:100%;
-        
+    width:100%;        
 }
 
 .container-education{
@@ -338,8 +296,7 @@ background-color:#363636;
 
 
     .sessao-education div{
-        display: flex;
-       
+        display: flex;       
     }
 
     .sessao-education p{
@@ -348,48 +305,33 @@ background-color:#363636;
         padding: .5rem;
         text-align: center;
         padding-top:1rem;
-        font-family: var(--font-textbasic);
-    
-    
+        font-family: var(--font-textbasic);   
     }
     
-
 
     .sessao-education img{
+        width:80px;
+        height:80px;
         padding-right: 1rem;
         padding-top:1rem;
-    }
-    
+    }    
 
 
     .sessao-skills{
         background-color: #242424;
-        width: 100%;       
-    
+        width: 100%;           
     }
     
-
-
-
-
-
-
 
 #skills{
     grid-area: skills;
     background-color:#242424;
-
     position:relative;
-
 }
 
-
-.sessao-skills{
-    width: 100%;
-       
-
+.skills-right {
+    margin-left: 2rem;
 }
-
 
 .sessao-skills h3{
     font-family: var(--font-subtitulo);
@@ -404,7 +346,6 @@ background-color:#363636;
 }
 
 
-
 .container-skills{
     display:flex;
            
@@ -414,20 +355,13 @@ background-color:#363636;
 }
 
 
-
 .sessao-skills p{
     color: #FFFFFF;
     font-size: .8rem;
     font-family: var(--font-textbasic);
     padding: 1rem;
     font-weight: 600;
-
 }
-
-
-/* olha essa parte criando rolagem */
-
-
 
 
 .sessao-skills span{
@@ -437,59 +371,42 @@ background-color:#363636;
 }
 
 
-
-
 .span{
     margin-left: 0rem;
 }
 
 
-
-
 .html{
     
     position: absolute;
-    bottom:14rem;
-   
-    
+    bottom:14rem;    
 }
 
 .css{
     position: absolute;
-    bottom:11rem;
-    
+    bottom:11rem;    
 }
 
 
 .js{
     position: absolute;
-    bottom:8rem;
-    
+    bottom:8rem;    
 }
 
 .wp{
     position: absolute;
-    bottom:5rem;
-    
+    bottom:5rem;    
 }
 
 .git{
     position: absolute;
-    bottom:2rem;
-    
+    bottom:2rem;    
 }
-
-
 
 
 #experience{
     grid-area: experience;
-    background-color:#303030;
-    
-
-
-
-
+    background-color:#303030;    
 }
 
 #article{
@@ -502,8 +419,6 @@ background-color:#363636;
     grid-template-columns: 2fr 100px 2fr;    
     /* grid-template-rows: 1fr 1fr 1fr; */
 
-
-
 }
 
 
@@ -511,7 +426,6 @@ background-color:#363636;
     grid-area: left;
     padding: 1rem;
     transform: translatey(9rem);
-
 }
 
 .left h2{
@@ -525,8 +439,6 @@ background-color:#363636;
 .right{
 grid-area:right;
 padding: 1rem;
-
-
 }
 
 .right h2{
@@ -542,8 +454,7 @@ padding: 1rem;
     width: 1000px;
    
     border: 1px solid #FFBC2F;
-    transform: rotate(-90deg) translateX(-28rem) translateY(-22rem);
- 
+    transform: rotate(-90deg) translateX(-28rem) translateY(-22rem); 
 }
 
 .ponto-data{
@@ -553,7 +464,6 @@ padding: 1rem;
     background-color:#FFBC2F;
     border-radius: 25px;
     transform:translate(-3.5rem , 1.4rem);
-
 }
 
 .left .ponto-data{
@@ -567,8 +477,7 @@ padding: 1rem;
 
 
 .sessao-experience h2{
-    color: var(--cor-data);
-    
+    color: var(--cor-data);    
 }
 
 .sessao-experience h3{
@@ -592,7 +501,7 @@ padding: 1rem;
     text-align: justify;
     padding: .5rem;
     line-height: 1.3rem;
-
+    font-size:.9rem;
 }
 
 .bloco-experience{
@@ -600,8 +509,7 @@ padding: 1rem;
     height:6px;
     background-color:#FFF;
     margin-left: 2rem;
-    margin-bottom: 2rem;
-    
+    margin-bottom: 2rem;    
 }    
  
 .bloco-experience-linha{
@@ -609,11 +517,7 @@ padding: 1rem;
     background-color:#FFF;
     margin-top:-44px;
     margin-left:2rem;
-    
-
 }
-
-
 
 
 #footer{
@@ -623,20 +527,17 @@ padding: 1rem;
 
 
 footer{
-    width: 100%;
-    height: 7rem;
+    width: 100vw;
+    height: 4rem;
     background-color: #17181b;
-    
-    color:#FFFFFF;
-    
+       
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .footer-content{
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
 }
@@ -645,8 +546,7 @@ footer{
 .footer-content p{
     font-family: var(--font-textbasic);
     color:#a7a7a7;
-    font-size:.8rem;    
-
+    font-size:.8rem;  
 }
 
 
@@ -654,14 +554,11 @@ footer{
     margin:1rem 1rem;
     color:#a7a7a7;
     font-size: 1.3rem;
-
-
 }
 
 .social-list ul{
     display: flex;
-    list-style-type: none
-    
+    list-style-type: none;    
 } 
 
 
@@ -705,8 +602,8 @@ footer{
 
     .bloco{
         position:absolute;
-        bottom: 1.3rem;
-        /* right: 8rem; */
+        bottom: 1.2rem;
+        left: 15rem;
     }
 
 
