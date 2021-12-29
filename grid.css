@@ -409,7 +409,9 @@ background-color:#363636;
 
 #experience{
     grid-area: experience;
-    background-color:#303030;    
+    background-color:#303030;
+    
+    
 }
 
 #article{
@@ -600,53 +602,53 @@ footer{
     
 }
 
+}
+
+
+
 
 @media only screen and (max-width:1024px){
 
 
+    body{
+        width:100vw;       
 
-body{
-
-    display:grid;
-    grid-template-areas: 
-    "headerr"
-    "imagem banner"
-    "contact"
-    "education "
-    "skills "
-    "experience"
-    "footer ";
-
-    grid-template-columns: 427px 1fr;    
-    grid-template-rows: 50px 539px 525px 345px 425px 100px;
-
-    grid-template-rows: 50px 60vh 60vh 120vh 425px 100px;
-
-}
-
-
-
-
-
-
-    #article{
-    
-        display:grid;
-        grid-template-areas: 
-        "right"
-        "left";
-        
-               
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-
+        display: flex;
+        flex-direction: column;
     }
 
-.right h3{
-    text-align:left;
-    margin-left: 10rem;
-}
+   #header{
+    display:flex;
+    
+   }
+   
+    
 
+   #imagem{
+      
+       width:35vw;
+   }
+   
+   #banner{
+       display:flex;
+       width:60vw;
+       position: absolute;
+       right:0rem;
+   }
+   
+    #article{
+          
+        display:flex;
+       
+    }
+
+
+
+.left{
+    grid-area: left;
+    padding: 1rem;
+    transform: translatey(0rem);
+}
 
 .timeline{
     display: none;
@@ -659,38 +661,144 @@ body{
 
 
 
+/* ------------  */
+  
 
 
-
-.description p{
-    margin-top: -0.3rem;
-    margin-left: 0rem;
-    padding-top:2rem;
-   
+.box-profile{
+    height: 165px;
+    bottom:170px;
+;
 }
 
+.professional{
+    font-size:1rem;
+    padding:.8rem;
+}
+
+.profile{
+    font-size:1rem;
+}
 
 .bloco{
-left:11.3rem;
-bottom: 1.2rem;
+    left:6rem;
+    bottom:1.2rem;
+    width:50px;
+    height:15px;
+}
+
+.description p {
+    margin-top: -3.3rem;
+    margin-left: 0rem;
+    padding-top: 2rem;
+    
+}
+
+.sessao-contact {
+    margin-top:6rem;
 
 }
+
+.bloco-contact {      
+    left: 43.3rem;    
+      
 }
+
+.bloco-contact-linha {
+    width:900px;
+}
+
+.container-img{
+
+width:48px;
+left: 28rem;
+}
+
+.container-texto{
+left:-20rem;
+
+}
+
+
+.container-texto-img{
+    margin-bottom:-18rem;
+}
+
+
+.container-education {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    
+}
+
+
+
+.sessao-skills p {
+    font-size: .9rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    grid-area: footer;
+    background-color:#363636;
+    position:relative;
+    
+
+}
+
+
+.footer-content{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 @media only screen and (max-width:768px){
     body{
-        display:grid;
-        grid-template-areas: "imagem"
-                             "banner " 
-                             "contact" 
-                             "education"
-                             "skills"
-                             "experience"
-                             "footer"; 
-        grid-template-columns: 100vw; 
-        grid-template-rows: 100vh;
+        /* display:grid; */
+        display: flex;
+        flex-direction: column;
+        
     }
 
 .img-wrapper{
@@ -699,6 +807,7 @@ bottom: 1.2rem;
 
 .box-profile{
     height: 165px;
+    bottom:210px;
 ;
 }
 
@@ -772,6 +881,30 @@ bottom: 1.2rem;
 
 
 
+
+
+#footer{
+    grid-area: footer;
+    background-color:#363636;
+    position:relative;
+    
+
+}
+
+
+.footer-content{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+
+}
+
+
+
+
 @media only screen and (max-width:360px){
     body{
         grid-template-areas: "imagem"
@@ -786,77 +919,12 @@ bottom: 1.2rem;
     }
 
 
-
-    #imagem{
-       
-    }
-    
-
-.container-imagem{
-    
-}
-
-
-    .img-wrapper img{
-       
-    }
-
-    .box-profile{
-        
-            
+         
     }
 
 
-    .bloco{
-        
-    }
-
-
-.banner{
-
-}
-
-.nome{
-    font-size:2rem;
-}
-
-.sobrenome{
-    font-size:2rem;
-}
-
-
-.box{
-    position:relative;
-    bottom:-12px; 
-    width:100%;
-    height: 258px;
-    background-color: #FFBC2F;    
-}
+ 
 
 
 
-
-
-
-
-
-
-
-    
-    #article{
-        grid-template-areas: "right"
-                             "left";
-    }
-
-
-}
-
-    /* .nav-left{
-        display:none;
-
-    } */
-
-    /* .container{
-        grid-template-areas: "right"
-                              "footer";
-    } */
+   
