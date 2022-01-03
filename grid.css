@@ -217,6 +217,7 @@ grid-area: imagem;
     position: relative;
     left:18.1rem;
     margin-bottom: 2rem;
+
     
 }
 
@@ -241,7 +242,7 @@ grid-area: imagem;
 
 .container-img{    
     position: relative;
-
+   
     left: 355px;    
     bottom:18.5rem;    
 }
@@ -616,7 +617,8 @@ footer{
 
         display: flex;
         flex-direction: column;
-        margin:auto;
+        margin: auto;
+       
         
         
     }
@@ -626,7 +628,14 @@ footer{
     
    }
    
-    
+   .container-imagem{
+       background-color:#363636;
+      
+   } 
+
+
+
+
     .img-wrapper{
         width:45vw;
         height: 75vh;
@@ -638,6 +647,7 @@ footer{
       margin: auto;
        width:45vw;
        margin-bottom:0rem;
+       
    }
    
 
@@ -674,8 +684,8 @@ footer{
    
     #article{
           
-        display:flex;
-       
+        /* display:flex; */
+        grid-template-columns: 48vw 0px 48vw;
     }
 
 
