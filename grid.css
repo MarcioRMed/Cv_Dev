@@ -515,6 +515,7 @@ grid-area:right;
     color:var(--cor-texto);
     text-align: justify;
     padding: .5rem;
+    padding:1rem;
     line-height: 1.3rem;
     font-size:.9rem;
     /* margin-bottom: 1rem; */
@@ -611,10 +612,13 @@ footer{
 
 
     body{
-        width:100vw;       
+        /* width:100vw;        */
 
         display: flex;
         flex-direction: column;
+        margin:auto;
+        
+        
     }
 
    #header{
@@ -623,16 +627,48 @@ footer{
    }
    
     
+    .img-wrapper{
+        width:45vw;
+        height: 75vh;
+        position: relative;
+
+    }
 
    #imagem{
-      
-       width:35vw;
+      margin: auto;
+       width:45vw;
+       margin-bottom:0rem;
    }
    
+
+   .box-profile{
+    height: 165px;
+    bottom:170px;
+;
+}
+
+.professional{
+    font-size:1.5rem;
+    padding-bottom:.8rem;
+}
+
+.profile{
+    font-size:1.5rem;
+}
+
+.bloco{
+    position: absolute;
+    margin-right: 100rem;
+    left:10rem;
+    bottom:1.6rem;
+    width:60px;
+    height:15px;
+}
+
+
    #banner{
-       display:flex;
-       width:60vw;
-       position: absolute;
+       margin-top:0rem;       
+       position: relative;
        right:0rem;
    }
    
@@ -664,33 +700,11 @@ footer{
 /* ------------  */
   
 
-
-.box-profile{
-    height: 165px;
-    bottom:170px;
-;
-}
-
-.professional{
-    font-size:1rem;
-    padding:.8rem;
-}
-
-.profile{
-    font-size:1rem;
-}
-
-.bloco{
-    left:6rem;
-    bottom:1.2rem;
-    width:50px;
-    height:15px;
-}
-
 .description p {
     margin-top: -3.3rem;
     margin-left: 0rem;
     padding-top: 2rem;
+    
     
 }
 
@@ -701,6 +715,7 @@ footer{
 
 .bloco-contact {      
     left: 43.3rem;    
+    
       
 }
 
@@ -712,6 +727,7 @@ footer{
 
 width:48px;
 left: 28rem;
+left:33rem;
 }
 
 .container-texto{
@@ -727,13 +743,20 @@ left:-20rem;
 
 .container-education {
     margin-top: 1rem;
-    margin-left: 3rem;
     margin-bottom: 1rem;
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
     
 }
 
-
+.sessao-education img {
+    
+    width: 70px;
+    height: 90px;
+    margin-left: 1rem;  
+}
 
 .sessao-skills p {
     font-size: .9rem;
@@ -742,26 +765,12 @@ left:-20rem;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 #footer{
-    grid-area: footer;
-    background-color:#363636;
-    position:relative;
+    /* grid-area: footer; */
+    /* background-color:#363636; */
+    /* position:relative; */
     
-
 }
-
 
 .footer-content{
     width: 85%;
@@ -769,13 +778,6 @@ left:-20rem;
     justify-content: space-between;
     margin: 1rem;
 }
-
-
-
-
-
-
-
 
 
 }
