@@ -322,11 +322,6 @@ background-color:#363636;
         padding-top:1rem;
     }    
 
-
-    /* .sessao-skills{
-        
-        width: 100%;           
-    }*/
     
 
 #skills{
@@ -433,7 +428,7 @@ background-color:#363636;
     "left timeline right"
     "left timeline right";
     
-    grid-template-columns: 33vw 30px 33vw;
+    grid-template-columns: 38vw 30px 38vw;
     
 }
 
@@ -689,6 +684,31 @@ footer{
 
 
 
+
+
+
+@media only screen and (max-width:1680px){    
+   
+    #article{
+        grid-template-columns: 37vw 30px 37vw;
+    }
+
+}
+
+@media only screen and (max-width:1440px){
+
+    body{
+        grid-template-rows: 100px 539px 545px 345px 450px 1050px 100px;
+
+    }
+
+
+
+    #article{
+        grid-template-columns: 35vw 30px 35vw;
+}
+
+
 @media only screen and (max-width:1280px){
 
     #article{
@@ -698,7 +718,7 @@ footer{
     }
 
     
-.separador_left{
+    .separador_left{
   
     width:25vw;
     
@@ -733,9 +753,6 @@ footer{
       
    } 
 
-
-
-
     .img-wrapper{
         width:45vw;
         height: 75vh;
@@ -746,11 +763,9 @@ footer{
    #imagem{
       margin: auto;
        width:45vw;
-       margin-bottom:0rem;
-       
+       margin-bottom:0rem;       
    }
    
-
    .box-profile{
     height: 165px;
     bottom:170px;
@@ -775,20 +790,17 @@ footer{
     height:15px;
 }
 
-
    #banner{
        margin-top:0rem;       
        position: relative;
        right:0rem;
    }
    
-    #article{
-          
+
+    #article{          
         /* display:flex; */
         grid-template-columns: 48vw 0px 48vw;
     }
-
-
 
 .left{
     grid-area: left;
@@ -803,30 +815,21 @@ footer{
 .sessao-experience p {
     padding: .5rem 1rem;
  
-}
-
-
-
-/* ------------  */
-  
+}  
 
 .description p {
     margin-top: -3.3rem;
     margin-left: 0rem;
-    padding-top: 2rem;
-    
+    padding-top: 2rem;  
     
 }
 
 .sessao-contact {
     margin-top:6rem;
-
 }
 
 .bloco-contact {      
-    left: 47rem;    
-    
-      
+    left: 47rem;            
 }
 
 .bloco-contact-linha {
@@ -834,7 +837,6 @@ footer{
 }
 
 .container-img{
-
 width:48px;
 left: 28rem;
 left:33rem;
@@ -842,14 +844,11 @@ left:33rem;
 
 .container-texto{
 left:-20rem;
-
 }
-
 
 .container-texto-img{
     margin-bottom:-18rem;
 }
-
 
 .container-education {
     margin-top: 1rem;
@@ -857,30 +856,28 @@ left:-20rem;
     padding: 1rem;
     display: flex;
     align-items: center;
-    justify-content:center;
-    
+    justify-content:center;    
 }
 
-.sessao-education img {
-    
+.sessao-education img {    
     width: 70px;
     height: 90px;
     margin-left: 1rem;  
 }
 
 .sessao-skills p {
-    font-size: .9rem;
+    font-size: .9rem;    
+}
+
+.container-skills{
+    margin-left:5.3rem;
+}
+
+.sessao-teachers ul{
+    margin-left:23em;
     
 }
 
-
-
-#footer{
-    /* grid-area: footer; */
-    /* background-color:#363636; */
-    /* position:relative; */
-    
-}
 
 .footer-content{
     width: 85%;
@@ -891,129 +888,31 @@ left:-20rem;
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media only screen and (max-width:768px){
-    body{
-        /* display:grid; */
-        display: flex;
-        flex-direction: column;
+    
+
+    .bloco{       
+        left:4.2rem;       
+    }
+    
+    .container-texto{
+        left:-6rem;
+        }
+
+    .sessao-teachers ul{
+        margin-left:15rem;
         
     }
 
-.img-wrapper{
-    margin-bottom: -11rem;
-}
-
-.box-profile{
-    height: 165px;
-    bottom:210px;
-;
-}
-
-.professional{
-    font-size:1.5rem;
-    padding:.8rem;
-}
-
-.profile{
-    font-size:1.5rem;
-}
-
-.bloco{
-    left:24.3rem;
-    bottom:1.5rem;
-    width:68px;
-    height:18px;
-}
-
-.description p {
-    margin-top: -3.3rem;
-    margin-left: 0rem;
-    padding-top: 2rem;
-    
-}
-
-.sessao-contact {
-    margin-top: 6rem;
-
-}
-
-.bloco-contact {      
-    left: 35.1rem;    
-}
-
-.bloco-contact-linha {
-    width:710px;
-}
-
-.container-img{
-
-    left: 693px;
-}
-
-.container-texto-img{
-    margin-bottom:-18rem;
-}
-
-
-.container-education {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-
-
-.sessao-skills p {
-    font-size: .9rem;
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #footer{
-    grid-area: footer;
-    background-color:#363636;
-    position:relative;
-    
+    background-color:#262626;       
 
 }
 
 
-.footer-content{
-    width: 85%;
-    display: flex;
-    justify-content: space-between;
-    margin: 1rem;
 }
-
-
-}
-
 
 
 
@@ -1033,10 +932,5 @@ left:-20rem;
 
          
     }
-
-
- 
-
-
 
    
