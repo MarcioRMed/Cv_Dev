@@ -211,7 +211,7 @@ grid-area: imagem;
 
 
 .bloco-contact{
-    width:41px;
+    width:4px;
     height:6px;
     background-color:#FFBC2F;
     position: relative;
@@ -727,8 +727,6 @@ footer{
 }
 
 
-
-
 @media only screen and (max-width:1024px){
 
 
@@ -897,6 +895,15 @@ left:-20rem;
         left:4.2rem;       
     }
     
+    .bloco-contact{
+    width:41px;        
+    left: 34.5em;rem;   
+    }
+    
+.bloco-contact-linha{
+    width:36.5rem;     
+}
+
     .container-texto{
         left:-6rem;
         }
@@ -913,7 +920,6 @@ left:-20rem;
 
 
 }
-
 
 
 @media only screen and (max-width:360px){
