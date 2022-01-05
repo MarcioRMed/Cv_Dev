@@ -38,12 +38,11 @@ body{
     "contact experience"
     "education experience"
     "skills experience"
-    "skills experience"
+    "skills experience" /*extra para atualizações futuras  */
     "footer footer";
 
-    grid-template-columns: 427px 1fr;    
-    /* grid-template-rows: 50px 539px 525px 345px 425px 100px; */
-
+    grid-template-columns: 427px 1fr;   
+    
     grid-template-rows: 50px 539px 545px 345px 425px 425px 100px;
 
 }
@@ -353,7 +352,11 @@ background-color:#363636;
 
 .container-skills{
     display:flex;
-           
+    /* align-items: center;   */
+
+    margin-top:9rem;
+    
+    
     justify-content: center;
     /* margin-left: 1.5rem; */
     /* margin-top:-1rem; */
@@ -385,10 +388,8 @@ background-color:#363636;
 
 }
 
-
 .html{
     position: absolute; 
-
     bottom:14.3rem;    
 }
 
@@ -397,7 +398,6 @@ background-color:#363636;
     left:-1rem;
     bottom:11.3rem;    
 }
-
 
 .js{
     position:absolute;
@@ -420,8 +420,7 @@ background-color:#363636;
 
 #experience{
     grid-area: experience;
-    background-color:#303030;
-    
+    background-color:#303030;    
     
 }
 
@@ -432,7 +431,6 @@ background-color:#363636;
     "left timeline right"
     "left timeline right"
     "left timeline right";
-
     
     grid-template-columns: 33vw 30px 33vw;
     
