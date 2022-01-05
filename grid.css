@@ -41,9 +41,9 @@ body{
     "teachers experience" /*extra para atualizações futuras  */
     "footer footer";
 
-    grid-template-columns: 427px 1fr;   
+    grid-template-columns: 375px 1fr;   
     
-    grid-template-rows: 50px 539px 545px 345px 450px 800px 100px;
+    grid-template-rows: 100px 539px 545px 345px 450px 900px 100px;
 
 }
 
@@ -77,7 +77,7 @@ grid-area: imagem;
     background-color: #C6A429;
 
     position: relative;
-    bottom: 228px;
+    bottom: 156px;
     opacity: .73;
  
     z-index:2 ;
@@ -107,7 +107,7 @@ grid-area: imagem;
 .bloco{
     position: absolute;
     bottom: 1.33rem;
-    left: 11.5rem;
+    left: 8.9rem;
 
     width:48px;
     height:13px;
@@ -215,14 +215,14 @@ grid-area: imagem;
     height:6px;
     background-color:#FFBC2F;
     position: relative;
-    left:18.1rem;
+    left:15.6rem;
     margin-bottom: 2rem;
 
     
 }
 
 .bloco-contact-linha{
-    width:365px;
+    width:350px;
     height:3px;
     background-color:#FFBC2F;
    
@@ -235,7 +235,7 @@ grid-area: imagem;
 .container-texto{
     text-align: right;
     position: relative;    
-    right:4.5rem ;
+    right:4rem ;
     bottom:1.5rem;    
 }
 
@@ -243,8 +243,9 @@ grid-area: imagem;
 .container-img{    
     position: relative;
    
-    left: 355px;    
-    bottom:18.5rem;    
+    left: 15.3rem;    
+    bottom:20.5rem;    
+    
 }
 
 .sessao-contact h4{
@@ -267,7 +268,7 @@ grid-area: imagem;
 
  .sessao-contact img{
     display: flex;
-    padding-bottom:24px;        
+    padding-bottom:33px;        
 } 
 
 a{
@@ -352,9 +353,9 @@ background-color:#363636;
 
 .container-skills{
     display:flex;
-    /* align-items: center;   */
-/* 
-    margin-top:0rem; */
+    align-items: center;  
+    margin-top:-1.5rem;
+    margin-left:2.3rem;
     
     
     justify-content: center;
@@ -614,9 +615,36 @@ grid-area:right;
 }
 
 
+
+.sessao-qualificacoes p{
+    color:var(--cor-texto);
+    text-align: justify;
+    padding: .5rem;
+    line-height: 1.3rem;
+    font-size:1rem;
+    font-family: var(--font-textbasic);
+    margin: 1rem;
+}
+
+.sessao-infoAdicionais p{
+    color:var(--cor-texto);
+    text-align: justify;
+    padding: .5rem;
+    line-height: 1.3rem;
+    font-size:1rem;
+    font-family: var(--font-textbasic);
+    margin: 1rem;
+
+}
+
+
+
+
+
+
 #footer{
     grid-area: footer;
-    background-color:#363636;
+    background-color:#262626;
 }
 
 
