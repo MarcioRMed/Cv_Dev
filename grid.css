@@ -38,12 +38,12 @@ body{
     "contact experience"
     "education experience"
     "skills experience"
-    "skills experience" /*extra para atualizações futuras  */
+    "teachers experience" /*extra para atualizações futuras  */
     "footer footer";
 
     grid-template-columns: 427px 1fr;   
     
-    grid-template-rows: 50px 539px 545px 345px 425px 425px 100px;
+    grid-template-rows: 50px 539px 545px 345px 450px 800px 100px;
 
 }
 
@@ -322,10 +322,10 @@ background-color:#363636;
     }    
 
 
-    .sessao-skills{
+    /* .sessao-skills{
         
-        /* width: 100%;            */
-    }
+        width: 100%;           
+    }*/
     
 
 #skills{
@@ -353,8 +353,8 @@ background-color:#363636;
 .container-skills{
     display:flex;
     /* align-items: center;   */
-
-    margin-top:9rem;
+/* 
+    margin-top:0rem; */
     
     
     justify-content: center;
@@ -508,6 +508,52 @@ grid-area:right;
    
     border: 1px solid black;
     transform: rotate(-90deg) translateX(-31rem) translateY(-22rem); 
+}
+
+
+
+#teachers{
+    grid-area: teachers;
+
+}
+
+.sessao-teachers{
+    background-color:#363636;
+
+}
+
+.sessao-teachers h3{
+    font-family: var(--font-subtitulo);
+    color: #FFBC2F;
+    letter-spacing: .15rem;
+    padding-top:2rem;
+    padding-bottom: .3rem;
+    text-align: right;
+    padding-right: 1rem;
+    font-weight: 400;
+
+
+}
+
+
+
+
+.sessao-teachers h4{
+    color: var(--cor-titulos);
+    font-family: var(--font-textbasic);
+    margin:0rem 2rem 1rem 1rem;
+    text-align: center;
+}
+
+.sessao-teachers ul li {
+    color: #FFFFFF;
+    font-family: var(--font-textbasic);
+    margin:0rem 2rem 1rem 1rem;
+    
+}
+
+.sessao-teachers ul{
+    margin-left:8rem;
 }
 
 
