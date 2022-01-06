@@ -23,7 +23,7 @@
 
 
 body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background-color:#101010;    
 
     margin: 0;
@@ -627,6 +627,10 @@ footer{
 
 @media only screen and (max-width:1280px){
 
+    body{
+        grid-template-rows: 100px 539px 545px 345px 450px 1200px 100px;
+
+    }
     #article{
 
         display: grid;
@@ -680,6 +684,11 @@ footer{
        margin-bottom:0rem;       
    }
    
+   .box{
+       height:151px;
+   }
+
+
    .box-profile{
     height: 165px;
     bottom:170px;
@@ -803,9 +812,53 @@ left:-20rem;
 
 }
 
+@media only screen and (max-width:800px){
+
+       
+    .box{
+        height:171px;
+    }
+    
+        .bloco{       
+            left:4.9rem;       
+        }
+        
+        .bloco-contact{
+        width:41px;        
+        left: 34.5em;   
+        }
+        
+    .bloco-contact-linha{
+        width:36.5rem;     
+    }
+    
+        .container-texto{
+            left:-8rem;
+            }
+    
+            .container-skills{
+                margin-left:2.5rem;
+            }
+            
+    
+        .sessao-teachers ul{
+            margin-left:18rem;
+            
+        }
+    
+    
+   
+
+    
+
+}
+
 
 @media only screen and (max-width:768px){
     
+   .box{
+    height:171px;
+}
 
     .bloco{       
         left:4.2rem;       
@@ -845,6 +898,9 @@ left:-20rem;
 
 @media only screen and (max-width:425px){
  
+    html{
+        margin:auto;
+    }
 
     .img-wrapper img{
         position:relative;
