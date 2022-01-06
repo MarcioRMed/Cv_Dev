@@ -202,12 +202,14 @@ grid-area: imagem;
 }
 
 .bloco-contact-linha{
+    display:flex;
     width:350px;
+
     height:3px;
     background-color:#FFBC2F;   
     position: relative;
     top:-44px;
-    left:0;    
+    left:0;      
 }
 
 .container-texto{
@@ -604,6 +606,7 @@ footer{
 } 
 
 
+
 @media only screen and (max-width:1680px){    
    
     #article{
@@ -896,17 +899,16 @@ left:-20rem;
 }
 
 
+
 @media only screen and (max-width:425px){
  
-    html{
-        margin:auto;
-    }
+   
 
     .img-wrapper img{
         position:relative;
-        width: 220%;
-        /* height:50%; */
-        left:-5rem;
+        width:100vw;
+       
+        left:-6.2rem;
         /* object-fit: cover;     */
         
     }
@@ -914,7 +916,7 @@ left:-20rem;
    
 .box-profile{
     width:220%;
-    left:-5rem;
+    left:-6.1rem;
     height:165px;    
     bottom: 156px;
    
@@ -1047,5 +1049,7 @@ left:-20rem;
 
 
     }
+
+
 
 
