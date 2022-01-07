@@ -34,3 +34,4 @@ Tecnologias usadas:
 obs.: 
  - vou melhoras a resposividade não esta 100 % 
  - completar os restos dos dados do perfil.
+ - na barra superior estou pensando em colocar um menu. ja deixei o espaço
