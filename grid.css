@@ -607,7 +607,7 @@ footer{
 
 
 
-/* 
+
 
 
 @media only screen and (max-width:1680px){    
@@ -657,12 +657,10 @@ footer{
 
 
     body{
-        width:100vw;       
-
+        width:100vw;      
         display: flex;
         flex-direction: column;
-        margin: auto;
-       
+        margin: auto;       
         
         
     }
@@ -1043,7 +1041,7 @@ left:-20rem;
 }   
 
 
-    } */
+    } 
 
 
 

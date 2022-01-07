@@ -18,7 +18,7 @@
         " experience" 
         "footer";
     
-    grid-template-columns: 100vw ;      
+    grid-template-columns: 425px;      
     
     grid-template-rows: 50px 77vh 85vh 70vh 30vh 55vh 80vh;
 
@@ -88,3 +88,5 @@ left:11.3rem;
 
 
     }
+
+    
