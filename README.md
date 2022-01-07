@@ -5,19 +5,18 @@ Projeto
 
 ##Objetivo:
 
-- Photoshop - Manipular e Modificar uma imagem fazendo  uma arte estilo recorte de jornal, para por ela de perfil no site.
+1 - Photoshop - Manipular e Modificar uma foto para usar no perfil.
 
-- Figma - Criar o layout no para o Curriculum Dev (Curriculum profissional) 
+2 - Figma - Criar o layout no para o Curriculum Dev (Curriculum profissional) 
     
     -trabalhando com:
         - tipografia
         - cores
-        - posicionamentos, espaçamentos e alinhamentos
+        - posicionamentos, espaçamentos e alinhamentos  
 
+        - Transformar o layout feito no Figma em site 
 
-- Transformar o layout feito no Figma em site 
-
-- Site
+3 - Site
      Trabalhar com:
      - flex box
      - Grid Layout
@@ -31,3 +30,7 @@ Tecnologias usadas:
 
 -HTML
 -CSS
+
+obs.: 
+ - vou melhoras a resposividade não esta 100 % 
+ - completar os restos dos dados do perfil.
