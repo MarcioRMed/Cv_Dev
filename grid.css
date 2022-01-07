@@ -607,6 +607,9 @@ footer{
 
 
 
+/* 
+
+
 @media only screen and (max-width:1680px){    
    
     #article{
@@ -654,7 +657,7 @@ footer{
 
 
     body{
-        /* width:100vw;        */
+        width:100vw;       
 
         display: flex;
         flex-direction: column;
@@ -724,7 +727,7 @@ footer{
    
 
     #article{          
-        /* display:flex; */
+        display:flex;
         grid-template-columns: 48vw 0px 48vw;
     }
 
@@ -907,13 +910,10 @@ left:-20rem;
     .img-wrapper img{
         position:relative;
         width:100vw;
-       
-        left:-6.2rem;
-        /* object-fit: cover;     */
+        left:-6.2rem;       
         
     }
- 
-   
+    
 .box-profile{
     width:220%;
     left:-6.1rem;
@@ -921,7 +921,6 @@ left:-20rem;
     bottom: 156px;
    
 }
-
 
     .professional{
         position:absolute;
@@ -947,10 +946,6 @@ left:-20rem;
        
     }
     
-
-
-
-
 
     .nome{
         margin-top: 62px;
@@ -1048,7 +1043,7 @@ left:-20rem;
 }   
 
 
-    }
+    } */
 
 
 
