@@ -3,93 +3,380 @@
 
 
 
-@media (max-width:425px){
-    
-    body{      
-    
-        margin: auto;
-             
-        display:grid;
-        grid-template-areas: 
-        "header"
-        "imagem"
-        "banner"
-        "contact"
-        "education"
-        "skills"
-        "teachers"
-        " experience" 
-        "footer";
-    
-    grid-template-columns: 425px;      
-    
-    grid-template-rows: 50px 77vh 85vh 70vh 30vh 55vh 80vh;
-
-}
-     
-.bloco{
-left:11.3rem;
-}
-
-.developer{
-    margin-left:0px;
-}
-
-.description p {    
-    margin-left: 0rem;
-    background-color: #FFBC2F;    
-
-}
-
-.box{
-    bottom:-2.5rem; 
-}
-
-.bloco-contact{
-       
-    left:18rem;
-    
-}
-
-.bloco-contact-linha{
-     width:360px;
- 
-}
-
-.container-img {
-    left: 16.9rem;    
-}
-
-.container-texto {
-    left: -5rem;    
-}
 
 
-.container-education {
-    margin-top: 2rem;
-}
 
-
-#article{
-    
-    display:grid;
-    grid-template-areas: 
-    "left"
-    "right";
-    
-    grid-template-columns: 100vw; 
-    
-    margin:-1rem;
-}   
-
-.footer-content{
-    width: 85%;
-    display: flex;
-    justify-content: space-between;
-    margin: 1rem;
-}
-
-
+@media only screen and (max-width: 1680px) {
+    body {
+      grid-template-rows: 50px 539px 545px 345px 450px 1150px 100px;
     }
+  
+    #article {
+      grid-template-columns: 37vw 30px 37vw;
+    }
+  }
+  
+  @media only screen and (max-width: 1440px) {
+    body {
+      grid-template-rows: 50px 539px 545px 345px 450px 1250px 100px;
+    }
+  
+    #article {
+      grid-template-columns: 35vw 30px 35vw;
+    }
+  }
+  
+  @media only screen and (max-width: 1280px) {
+    body {
+      grid-template-rows: 50px 539px 545px 345px 450px 1450px 100px;
+    }
+    #article {
+      display: grid;
+      grid-template-columns: 30vw 30px 29vw;
+    }
+  
+    .separador_left {
+      width: 25vw;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    body {
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
+  
+    #header {
+      display: flex;
+    }
+  
+    .container-imagem {
+      background-color: #363636;
+    }
+  
+    .img-wrapper {
+      width: 45vw;
+      height: 75vh;
+      position: relative;
+    }
+  
+    #imagem {
+      margin: auto;
+      width: 45vw;
+      margin-bottom: 0rem;
+    }
+  
+    .box {
+      height: 151px;
+    }
+  
+    .box-profile {
+      height: 165px;
+      bottom: 170px;
+    }
+  
+    .professional {
+      font-size: 1.5rem;
+      padding-bottom: 0.8rem;
+    }
+  
+    .profile {
+      font-size: 1.5rem;
+    }
+  
+    .bloco {
+      position: absolute;
+      margin-right: 100rem;
+      left: 10rem;
+      bottom: 1.6rem;
+      width: 60px;
+      height: 15px;
+    }
+  
+    #banner {
+      margin-top: 0rem;
+      position: relative;
+      right: 0rem;
+    }
+  
+    #article {
+      display: flex;
+      grid-template-columns: 48vw 0px 48vw;
+    }
+  
+    .left {
+      grid-area: left;
+      padding: 1rem;
+      transform: translatey(0rem);
+    }
+  
+    .timeline {
+      display: none;
+    }
+  
+    .sessao-experience p {
+      padding: 0.5rem 1rem;
+    }
+  
+    .description p {
+      margin-top: -3.3rem;
+      margin-left: 0rem;
+      padding-top: 2rem;
+    }
+  
+    .sessao-contact {
+      margin-top: 6rem;
+    }
+  
+    .bloco-contact {
+      left: 47rem;
+    }
+  
+    .bloco-contact-linha {
+      width: 980px;
+    }
+  
+    .container-img {
+      width: 48px;
+      left: 28rem;
+      left: 33rem;
+    }
+  
+    .container-texto {
+      left: -20rem;
+    }
+  
+    .container-texto-img {
+      margin-bottom: -18rem;
+    }
+  
+    .container-education {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .sessao-education img {
+      width: 70px;
+      height: 90px;
+      margin-left: 1rem;
+    }
+  
+    .sessao-skills p {
+      font-size: 0.9rem;
+    }
+  
+    .container-skills {
+      margin-left: 5.3rem;
+    }
+  
+    .sessao-teachers ul {
+      margin-left: 23em;
+    }
+  
+    .footer-content {
+      width: 85%;
+      display: flex;
+      justify-content: space-between;
+      margin: 1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .box {
+      height: 171px;
+    }
+  
+    .bloco {
+      left: 4.9rem;
+    }
+  
+    .bloco-contact {
+      width: 41px;
+      left: 34.5em;
+    }
+  
+    .bloco-contact-linha {
+      width: 36.5rem;
+    }
+  
+    .container-texto {
+      left: -8rem;
+    }
+  
+    .container-skills {
+      margin-left: 2.5rem;
+    }
+  
+    .sessao-teachers ul {
+      margin-left: 18rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .box {
+      height: 171px;
+    }
+  
+    .bloco {
+      left: 4.2rem;
+    }
+  
+    .bloco-contact {
+      width: 41px;
+      left: 34.5em;
+    }
+  
+    .bloco-contact-linha {
+      width: 36.5rem;
+    }
+  
+    .container-texto {
+      left: -6rem;
+    }
+  
+    .container-skills {
+      margin-left: 2.5rem;
+    }
+  
+    .sessao-teachers ul {
+      margin-left: 15rem;
+    }
+  
+    #footer {
+      background-color: #262626;
+    }
+  }
+  
 
-    
+@media only screen and (max-width: 425px) {
+    .img-wrapper img {
+      position: relative;
+      width: 100vw;
+      left: -6.2rem;
+    }
+  
+    .box-profile {
+      width: 220%;
+      left: -6.1rem;
+      height: 165px;
+      bottom: 156px;
+    }
+  
+    .professional {
+      position: absolute;
+      bottom: 2rem;
+      right: 2.5rem;
+      letter-spacing: 0.15rem;
+      font-size: 1rem;
+    }
+  
+    .profile {
+      position: absolute;
+      bottom: 1rem;
+      right: 2.5rem;
+      font-size: 1rem;
+    }
+  
+    .bloco {
+      position: absolute;
+      bottom: 1.33rem;
+      left: 10rem;
+      width: 38px;
+      height: 13px;
+    }
+  
+    .nome {
+      margin-top: 62px;
+      margin-left: 1rem;
+      margin-bottom: 0px;
+      padding: 0px;
+      font-size: 1.5rem;
+    }
+  
+    .sobrenome {
+      margin-top: 0px;
+      padding: 0px;
+      margin-left: 1rem;
+      font-size: 1.5rem;
+    }
+  
+    .developer {
+      margin-top: 10px;
+      margin-left: 1rem;
+      font-size: 1rem;
+  
+      text-align: center;
+      padding: 1rem;
+      letter-spacing: 0.14rem;
+    }
+  
+    .description p {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 1rem;
+      color: #ffffff;
+      text-shadow: 1px 1px 10px black;
+      padding: 1rem;
+    }
+  
+    .box {
+      height: 186px;
+    }
+  
+    .sessao-contact h3 {
+      font-size: 0.8rem;
+    }
+  
+    .container-texto {
+      left: -5rem;
+    }
+  
+    .container-img {
+      width: 48px;
+      left: 16.5rem;
+    }
+  
+    .bloco-contact {
+      width: 41px;
+      left: 17.1rem;
+    }
+  
+    .bloco-contact-linha {
+      width: 17.5rem;
+    }
+  
+    .sessao-education h3 {
+      font-size: 0.8rem;
+    }
+  
+    .sessao-skills h3 {
+      font-size: 0.8rem;
+    }
+  
+    .sessao-teachers h3 {
+      font-size: 0.8rem;
+    }
+  
+    .sessao-teachers ul {
+      margin-left: 7rem;
+    }
+  
+    #article {
+      display: grid;
+      grid-template-areas:
+        "left"
+        "right";
+  
+      grid-template-columns: 100vw;
+  
+      margin: -1rem;
+    }
+  }
+  
