@@ -57,9 +57,18 @@ body{
 grid-area: imagem;
 }
 
+
+.container-imagem{
+    position:relative;
+}
+
+
 .img-wrapper img{
     width: 100%;
     height:100%;
+
+    /* position: relative; */
+
     object-fit: cover;    
     z-index: 1; 
 }
@@ -68,12 +77,14 @@ grid-area: imagem;
     color: #FFFFFF;
 }
 
+
 .box-profile{
     width:100%;
     height:165px;    
     background-color: #C6A429;
-    position: relative;
-    bottom: 156px;
+    
+    position: absolute;
+    bottom: 0rem;
     opacity: .73; 
     z-index:2 ;
 }
@@ -99,8 +110,8 @@ grid-area: imagem;
 
 .bloco{
     position: absolute;
-    bottom: 1.33rem;
-    left: 8.9rem;
+    bottom: 1.2rem;
+    left: 13rem;
     width:48px;
     height:13px;
     background-color:#FFFFFF;    
@@ -176,15 +187,15 @@ grid-area: imagem;
 } 
 
 .sessao-contact{
-    background-color: #242424;
+    /* background-color: #242424; */
     width: 100%;       
+    position: relative;
 }
 
 .sessao-contact h3{
     font-family: var(--font-subtitulo);
     color: #FFBC2F;
     letter-spacing: .15rem;
-    /* font-size:1rem; */
     padding-top:2rem;
     padding-bottom: .3rem;
     text-align: right;
@@ -196,8 +207,11 @@ grid-area: imagem;
     width:41px;
     height:6px;
     background-color:#FFBC2F;
-    position: relative;
-    left:15.6rem;
+    
+    position: absolute;
+    
+    top: 3.5rem;
+    right:1rem;
     margin-bottom: 2rem;    
 }
 
@@ -207,8 +221,10 @@ grid-area: imagem;
 
     height:3px;
     background-color:#FFBC2F;   
-    position: relative;
-    top:-44px;
+    
+    position: absolute;
+    
+    top:3.6rem;
     left:0;      
 }
 
@@ -464,7 +480,7 @@ grid-area:right;
 
 .sessao-teachers{
     background-color:#363636;
-
+    position: relative;
 }
 
 .sessao-teachers h3{
