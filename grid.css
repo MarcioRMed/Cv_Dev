@@ -187,8 +187,8 @@ grid-area: imagem;
 } 
 
 .sessao-contact{
-    /* background-color: #242424; */
-    width: 100%;       
+    
+    /* width: 100%;        */
     position: relative;
 }
 
@@ -227,19 +227,45 @@ grid-area: imagem;
     top:3.6rem;
     left:0;      
 }
+/* 
+.container-texto-img{
+    display:flex;
 
+    position: relative;
+    height: 100%;
+
+} */
 .container-texto{
+    
     text-align: right;
+    
     position: relative;    
-    right:4rem ;
-    bottom:1.5rem;    
+    right:1rem ;
+    /* bottom:0rem;     */
 }
 
+.container-texto div img{
+    display: flex;
+    }
+/* 
 .container-img{    
     position: relative;   
-    left: 15.3rem;    
-    bottom:20.5rem;        
-}
+    right: 0rem;    
+    top:1rem;
+   
+    width:15% ;
+  
+
+
+} */
+
+
+
+.sessao-contact img{
+    
+    padding-bottom:15px;        
+} 
+
 
 .sessao-contact h4{
     color: #FFFFFF;
@@ -258,10 +284,6 @@ grid-area: imagem;
     font-size:1rem;      
 }
 
- .sessao-contact img{
-    display: flex;
-    padding-bottom:33px;        
-} 
 
 a{
     text-decoration: none;
@@ -313,6 +335,7 @@ background-color:#363636;
     grid-area: skills;
     background-color:#242424;
     position:relative;
+    margin-top: 0rem;
 }
 
 .skills-right {
@@ -333,7 +356,7 @@ background-color:#363636;
 .container-skills{
     display:flex;
     align-items: center;  
-    margin-top:-1.5rem;
+    margin-top:0rem;
     margin-left:2.3rem;
     
     
@@ -488,7 +511,7 @@ grid-area:right;
     color: #FFBC2F;
     letter-spacing: .15rem;
     padding-top:2rem;
-    padding-bottom: .3rem;
+    padding-bottom: 1rem;
     text-align: right;
     padding-right: 1rem;
     font-weight: 400;
@@ -515,21 +538,21 @@ grid-area:right;
     margin-left:8rem;
 }
 
-
+/* 
 .bloco-experience{
     width:251px;
     height:6px;
     background-color:#FFF;
     margin-left: 2rem;
     margin-bottom: 2rem;    
-}    
- 
-.bloco-experience-linha{
+}     */
+/*  
+/* .bloco-experience-linha{ 
     height:3px;
     background-color:#FFF;
-    margin-top:-44px;
+    margin-top:-44px; 
     margin-left:2rem;
-}
+} */
 .sessao-experience{ 
     width:100%; 
 }
