@@ -265,7 +265,7 @@
       width: 220%;
       left: -6.1rem;
       height: 165px;
-      bottom: 156px;
+      bottom: 0px;
     }
   
     .professional {
@@ -320,7 +320,7 @@
       display: flex;
       justify-content: center;
       text-align: center;
-      font-size: 1rem;
+      font-size: 16px;
       color: #ffffff;
       text-shadow: 1px 1px 10px black;
       padding: 1rem;

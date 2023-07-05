@@ -24,8 +24,6 @@ body {
   background-color: #101010;
 
   margin: 0;
-  height: 100vh;
-
   padding: 0;
 
   display: grid;
@@ -38,9 +36,9 @@ body {
     "teachers experience" /*extra para atualizações futuras  */
     "footer footer";
 
-  grid-template-columns: 375px 1fr;
+  grid-template-columns: 414px 1fr;
 
-  grid-template-rows: 50px 539px 545px 345px 450px 1000px 100px;
+  grid-template-rows: 50px 539px 545px 345px 450px 1000px 200px;
 }
 
 #header {
@@ -160,9 +158,9 @@ body {
   font-size: 1rem;
   color: #ffffff;
   text-shadow: 1px 1px 10px black;
-  margin-top: 1rem;
-  margin-left: 2rem;
-  padding: 3rem;
+  margin-top: 0rem;
+  margin-left: 1rem;
+  padding: 1rem;
   font-family: var(--font-textbasic);
 }
 
@@ -286,7 +284,7 @@ a {
 }
 
 .container-education {
-  margin-top: 4rem;
+  margin-top: 0rem;
 }
 
 .sessao-education h3 {
@@ -604,7 +602,7 @@ footer {
   position: relative;
   padding-top: 1rem;
   width: 100vw;
-  height: 4rem;
+  /* height: 4rem; */
   background-color: #17181b;
   display: flex;
   justify-content: center;
@@ -612,8 +610,8 @@ footer {
 }
 
 .footer-content {
-  width: 50%;
   display: flex;
+  padding: 20px;
   justify-content: space-between;
 }
 
@@ -633,3 +631,30 @@ footer {
   display: flex;
   list-style-type: none;
 }
+
+
+/* RESPONSIVIDADE */
+
+@media only screen and (min-width: 425px) {
+      
+  body{
+    display: grid;
+    grid-template-areas:
+      "header"
+      "imagem"
+      "banner"
+      "contact experience"
+      "education experience"
+      "skills experience"
+      "teachers experience" extra para atualizações futuras 
+      "footer footer";
+    
+    grid-template-columns: 414px ;
+    
+    grid-template-rows: 50px 539px 545px 345px 450px 1000px 200px;
+
+   }  
+  
+  }
+
+
