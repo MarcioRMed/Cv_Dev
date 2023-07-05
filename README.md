@@ -1,7 +1,7 @@
 # Cv_Dev
 Curriculum Vitae 
 
-ACESSO: https://marciormed.github.io/Cv_Dev/index.html
+ACESSO: https://marciormed.github.io/Cv_Dev/cv
 
 
 
@@ -14,6 +14,9 @@ Projeto
 1 - Photoshop - Manipular e Modificar uma foto para usar no perfil.
 
 2 - Figma - Criar o layout no para o Curriculum Dev (Curriculum profissional) 
+
+Obs.:
+    Adcionar o link do figma???????
     
     -trabalhando com:
         - tipografia
